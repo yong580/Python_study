@@ -19,4 +19,5 @@ def run_game():
         gf.check_events(ship)
         ship.update()
         gf.update_screen(alien_setting, screen,ship)
+        print("hello")
 run_game()
